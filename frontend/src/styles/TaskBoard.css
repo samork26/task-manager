@@ -1,0 +1,32 @@
+.task-board-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .task-column {
+    width: 30%;
+    padding: 10px;
+    background-color: #f4f5f7;
+    min-height: 500px;
+    border-radius: 8px;
+  }
+  
+  .task-card {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-card h4 {
+    margin: 0 0 5px 0;
+    font-size: 1.1rem;
+  }
+  
+  .task-card p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
